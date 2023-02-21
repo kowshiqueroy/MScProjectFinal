@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="91dp"
+                android:layout_height="76dp"
+
+                app:srcCompat="@drawable/chaselogo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কিভাবে সাহায্য করতে পারি?"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/solutionneed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="সমাধান চাই"
+            android:onClick="solutionneed"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/problemsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="problemsubmit"
+            android:text="সমস্যা জমা দিতে চাই"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/problemview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="problemview"
+            android:text="সমস্যাগুলো দেখতে চাই"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/solutionsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="solutionsubmit"
+            android:text="সমাধান জমা দিতে চাই"
+
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/expertnames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ExpertsNum"
+            android:text="বিশেষজ্ঞের নাম্বার চাই"
+            android:textSize="25dp" />
+
+
+        <ImageView
+
+            android:id="@+id/imageView2"
+            android:layout_width="91dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/farmer" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রোফাইলের ধরন"
+android:layout_marginTop="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নাম" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এন আই ডি" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="লগ আউট"
+            android:onClick="logout"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

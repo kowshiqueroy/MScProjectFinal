@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hint2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="217dp"
+        android:layout_height="178dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/chaselogo" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_marginBottom="180dp"
+        android:textAlignment="center"
+        android:text="Chas-E চাষ-ই"
+        android:textSize="50dp"
+
+     />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="অনলাইন কৃষি সেবার এই এপে আপনাকে স্বাগতম\nচাষী অথবা বিশেষজ্ঞ হিসেবে লগিন করুন\nআইডি না থাকলে সাইন আপ করুন\nআপনার সমস্যা এবং সমাধান গুলো অন্যের সাথে শেয়ার করে বাংলাদেশকে করুন আরও সমৃদ্ধ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Next"
+        android:layout_marginBottom="20dp"
+
+        android:textSize="20dp"
+        android:onClick="next"/>
+
+</RelativeLayout>

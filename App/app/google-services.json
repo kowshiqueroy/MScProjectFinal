@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "311751900652",
+    "project_id": "chatbot-bc28f",
+    "storage_bucket": "chatbot-bc28f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311751900652:android:5ed2df317495e6785994c9",
+        "android_client_info": {
+          "package_name": "com.example.chase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311751900652-46au40gl4j0ctq20jdqrss02mbq2v0uu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5AGgml2_TJZaMnKUdPtsHj4bquE01RNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311751900652-46au40gl4j0ctq20jdqrss02mbq2v0uu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
