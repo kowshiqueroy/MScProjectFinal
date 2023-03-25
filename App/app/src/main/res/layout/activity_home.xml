@@ -105,11 +105,20 @@ android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:text="এন আই ডি" />
 
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="User List"
+            android:onClick="userlist"/>
+
         <Button
             android:id="@+id/button4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:text="লগ আউট"
             android:onClick="logout"/>
 

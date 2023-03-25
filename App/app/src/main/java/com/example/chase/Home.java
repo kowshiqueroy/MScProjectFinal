@@ -79,4 +79,11 @@ public class Home extends AppCompatActivity {
         startActivity(iinent);
 
     }
+
+    public void userlist(View view) {
+
+        Intent iinent= new Intent(Home.this,UserList.class);
+        startActivity(iinent);
+
+    }
 }
